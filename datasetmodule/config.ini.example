@@ -1,0 +1,6 @@
+[GBQ]
+project_id = insert_gbq_project_name
+dataset_name = mimiciv_xx
+
+[NEPTUNE]
+neptune_project_id = insert_neptune_project_name

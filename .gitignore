@@ -1,0 +1,10 @@
+datasetmodule/output
+/venv/
+.idea
+.env
+datasetmodule/conf/mimiciv_gbq.json
+datasetmodule/config.ini
+datasetmodule/data/sparse.micro
+hgnnmodule/config.ini
+hgnnmodule/data/extras.pickle
+hgnnmodule/data/graph.bin

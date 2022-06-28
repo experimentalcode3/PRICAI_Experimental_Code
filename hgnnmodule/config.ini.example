@@ -1,0 +1,25 @@
+[neptune]
+use_logging = false
+neptune_project_id = insert_neptune_project_name
+
+[general]
+experiment_name = test
+;{Adam,SGD}
+optimizer = Adam
+
+[HSAGE]
+learning_rate = 0.001
+weight_decay = 0.0001
+dropout = 0.001
+
+h_dim = 128
+n_layers = 4
+
+max_epoch = 10000
+patience = 50
+fanout = 25
+
+validation = True
+
+mini_batch_flag = True
+batch_size = 8192
